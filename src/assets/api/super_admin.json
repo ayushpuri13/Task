@@ -1,0 +1,30 @@
+[
+    {
+		"context": "schemaone",
+		"type": "Invoice",
+		"accountId": "xxxx-xxxx-xxxx-1234",
+		"paymentDueDate": "2015-01-30",
+		"referencesOrder": "['ABC23A', 'ABC23B']"
+	},
+	{
+		"context": "schematwo",
+		"type": "Invoice",
+		"accountId": "xxxx-xxxx-xxxx-1341",
+		"paymentDueDate": "2015-01-31",
+		"referencesOrder": "['ABC23BC', 'ABC23SB']"
+	},
+	{
+		"context": "schemathree",
+		"type": "Invoice",
+		"accountId": "xxxx-xxxx-xxxx-1236",
+		"paymentDueDate": "2015-01-03",
+		"referencesOrder": "['AB1C23A', 'AB3C23B']"
+	},
+	{
+		"context": "schemafour",
+		"type": "Invoice",
+		"accountId": "xxxx-xxxx-xxxx-12324",
+		"paymentDueDate": "2015-01-03",
+		"referencesOrder": "['AB1C23A', 'ABC213B']"
+	}
+]

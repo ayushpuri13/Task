@@ -1,0 +1,25 @@
+[{
+    "review_id": "zdSx_SD6obEhz9VrW9uAWA",
+    "user_id": "Ha3iJu77CxlrFm-vQRs_8g",
+    "business_id": "tnhfDv5Il8EaGSXZGiuQGg",
+    "price_before": 400,
+    "price_after": 500,
+    "date": "2016-03-09"
+},
+{
+    "review_id": "sdsf_Sg6obEhz9VrW9uAWA",
+    "user_id": "Ha3iJu756CxlrFm-vQRs_8g",
+    "business_id": "tnhfg3ev5Il8EaGSXZGiuQGg",
+    "price_before": 300,
+    "price_after": 400,
+    "date": "2016-01-09"
+},
+{
+    "review_id": "zdSx_SD6obEhfef3VrW9uAWA",
+    "user_id": "Ha3iJu77Cxlaafm-vQRs_8g",
+    "business_id": "tnhfDv5ffael8EaGSXZGiuQGg",
+    "price_before": 400,
+    "price_after": 500,
+    "date": "2016-08-10"
+}
+]

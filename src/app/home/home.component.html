@@ -1,0 +1,77 @@
+<section class="pb_cover_v3 overflow-hidden cover-bg-indigo cover-bg-opacity text-left pb_gradient_v1 pb_slant-light" id="section-home">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill  btn-shadow-blue" value="Home" disabled>
+               
+              </div>
+              <div class="form-group">
+                  <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill  btn-shadow-blue" value="Add User" (click)="Adduser">
+                </div>
+            <table class="table table-bordered table-stripted table-hover" *ngIf="Admin">
+                <thead>
+                  <tr>
+                    <td>context</td><td>type</td><td>accountId</td>
+                    <td>paymentDueDate</td><td>referencesOrder</td>
+              
+                  </tr>
+                </thead>
+                <tbody *ngIf="Admin">
+                  <tr *ngFor="let p of result" >
+                    <td>{{p.context}}</td><td>{{p.type}}</td>
+                    <td >{{p.accountId}}</td> <td>{{p.paymentDueDate}}</td><td>{{p.referencesOrder}}</td>
+                   
+                  </tr>
+                </tbody>
+               
+              </table>
+
+              <table class="table table-bordered table-stripted table-hover" *ngIf="Manager">
+                  <thead>
+                    <tr>
+                      <td>review_id</td><td>user_id</td><td>business_id</td>
+                      <td>stars</td><td>date</td><td>text</td><td>useful</td><td>funny</td><td>cool</td>
+                
+                    </tr>
+                  </thead>
+                  <tbody *ngIf="Manager">
+                    <tr *ngFor="let p of resultmanager" >
+                      <td>{{p.review_id}}</td><td>{{p.user_id}}</td>
+                      <td >{{p.business_id}}</td> <td>{{p.stars}}</td><td>{{p.date}}</td><td>{{p.text}}</td><td>{{p.useful}}</td><td>{{p.funny}}</td><td>{{p.cool}}</td>
+                     
+                    </tr>
+                  </tbody>
+                 
+                </table>
+
+                <table class="table table-bordered table-stripted table-hover" *ngIf="Client">
+                    <thead>
+                      <tr>
+                        <td>review_id</td><td>user_id</td><td>business_id</td>
+                        <td>price_before</td><td>price_after</td><td>date</td>
+                  
+                      </tr>
+                    </thead>
+                    <tbody *ngIf="Client">
+                      <tr *ngFor="let p of resultclient" >
+                        <td>{{p.review_id}}</td><td>{{p.user_id}}</td>
+                        <td >{{p.business_id}}</td> <td>{{p.price_before}}</td><td>{{p.price_after}}</td><td>{{p.date}}</td>
+                       
+                      </tr>
+                    </tbody>
+                   
+                  </table>
+              
+          <h2 class="heading mb-3"></h2>
+          <div class="sub-heading">
+            <p class="mb-4"> <a href="http://uicookies.com" target="_blank"></a> <a href="http://uicookies.com" target="_blank"></a></p>
+            <!-- <label>New Member</label>
+            <p class="mb-5"><a class="btn btn-success btn-lg pb_btn-pill smoothscroll [disabled]" routerLink="/signup">Sign up<span class="pb_font-14 text-uppercase pb_letter-spacing-1"></span></a></p> -->
+          </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+        
+        <!-- END section -->
+  

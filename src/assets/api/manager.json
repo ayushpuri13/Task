@@ -1,0 +1,34 @@
+[{
+		"review_id": "zdSx_SD6obEhz9VrW9uAWA",
+		"user_id": "Ha3iJu77CxlrFm-vQRs_8g",
+		"business_id": "tnhfDv5Il8EaGSXZGiuQGg",
+		"stars": 4,
+		"date": "2016-03-09",
+		"text": "Great place to hang out after work.",
+		"useful": 0,
+		"funny": 0,
+		"cool": 0
+	},
+	{
+		"review_id": "sdsf_Sg6obEhz9VrW9uAWA",
+		"user_id": "Ha3iJu756CxlrFm-vQRs_8g",
+		"business_id": "tnhfg3ev5Il8EaGSXZGiuQGg",
+		"stars": 3,
+		"date": "2016-03-19",
+		"text": "That was fun.",
+		"useful": 1,
+		"funny": 4,
+		"cool": 5
+	},
+	{
+		"review_id": "zdSx_SD6obEhfef3VrW9uAWA",
+		"user_id": "Ha3iJu77Cxlaafm-vQRs_8g",
+		"business_id": "tnhfDv5ffael8EaGSXZGiuQGg",
+		"stars": 2,
+		"date": "2016-03-14",
+		"text": "Hard work.",
+		"useful": 6,
+		"funny": 3,
+		"cool": 2
+	}
+]
